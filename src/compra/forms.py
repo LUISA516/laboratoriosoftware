@@ -12,6 +12,8 @@ class CompraForm(forms.ModelForm):
            'nit_proveedor',
            'cantidad',
            'valor_compra',
+           
+
 		]
 		labels = {
 	        'codigo_compra' : 'Codigo compra',
